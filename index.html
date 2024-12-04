@@ -31,14 +31,48 @@
       }
       .billboard {
         background-color: rgba(128, 128, 128, 0.185);
-        display: grid;
+        width: 100vw;
+        display: flex;
+       
         justify-content: center;
       }
-      .container {
-        width: 300px;
-        height: 300px;
-        justify-content: center;
+      .contant {
+        display: grid;
+        width: 100px;
+        height: 250px;
         align-content: center;
+        margin-right: 500px;
+
+      }
+      .shop_product {
+        background-color: black;
+      }
+      .shop_product a{
+        color: white;
+      }
+      .image_holder{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .image_holder img{
+        position: absolute;
+        width: 300px;
+        top: 20px;
+        right: 0;
+      }
+      .company_services {
+        display: flex;
+        background-color: white;
+        gap: 10px;
+      }
+      .free_delivery{
+        width: 90%;
+      }
+      .quality_guarantee{
+        width: 90%;
+      }
+      .daily_offers{
+        width: 90%;
       }
     </style>
   </head>
@@ -48,8 +82,7 @@
         <div class="navbar_container">
           <a href="./index.html">
             <img
-              src="https://themewagon.github.io/MiniStore/images/main-logo.png"
-            />
+              src="https://themewagon.github.io/MiniStore/images/main-logo.png"/>
           </a>
           <div>
             <ul>
@@ -70,9 +103,41 @@
       <div class="container">
         <div class="contant">
           <h1>YOUR PRODUCTS ARE GREAT</h1>
+          <button class="shop_product">
+            <a href="">shop product</a>
+        </button>
         </div>
-        <div></div>
+        <div class="image_holder">
+            <img src="https://themewagon.github.io/MiniStore/images/banner-image.png" alt="">
+        </div>
       </div>
+    </section>
+    <section class="company_services">
+        <div>
+            <div class="free_delivery">
+                <h1>Free delivery</h1>
+                <p>Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+       
+        <div>
+            <div class="quality_guarantee">
+                <h1>Quality guarantee</h1>
+                <p>Dolor sit amet orem ipsu mcons ectetur adipi elit.</p>
+            </div>
+        </div>
+        <div>
+            <div class="daily_offers">
+                <h1>Daily offers</h1>
+                <p>Amet consectetur adipi elit loreme ipsum dolor sit.</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h1>100% secure payment</h1>
+                <p>Rem Lopsum dolor sit amet, consectetur adipi elit.</p>
+            </div>
+        </div>
     </section>
   </body>
 </html>
