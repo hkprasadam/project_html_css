@@ -82,12 +82,21 @@
       }
      .mp_image_holder{
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-around;
      }
      .i_phone{
       display: flex;
       justify-content: space-between;
+      position: relative;
      }
+     .add_to_cart{
+      background-color:gray;
+      position: absolute;
+      margin-top: -30px;
+      margin-left: 120px;
+     }
+  
 
     </style>
   </head>
@@ -164,17 +173,24 @@
            <a href=""><h2>GO TO SHOP</h2></a>
         </div>
     </div>
-        <div class="mp_image_holder">
-          <div>
+      <div class="mp_image_holder">
+        <div>
           <img src="https://themewagon.github.io/MiniStore/images/product-item1.jpg" alt="">
+           <div class="add_to_cart">
+              <a href="">add to cart</a>
+            </div>
           <div class="i_phone">
-            <a href="">Iphone 10</a>
-          <span>$980</span>
-          </div>
+              <a href="">Iphone 10</a>
+            <span>$980</span>
+          </div> 
         </div>
        
-        <div>
+       
+      <div>
           <img src="https://themewagon.github.io/MiniStore/images/product-item2.jpg" alt="">
+          <div class="add_to_cart">
+            <a href="">add to cart</a>
+          </div>
           <div class="i_phone">
             <a href="">Iphone 10</a>
           <span>$980</span>
@@ -182,6 +198,9 @@
         </div>
         <div>
           <img src="https://themewagon.github.io/MiniStore/images/product-item3.jpg" alt="">
+          <div class="add_to_cart">
+            <a href="">add to cart</a>
+          </div>
           <div class="i_phone">
             <a href="">Iphone 10</a>
           <span>$980</span>
@@ -189,6 +208,9 @@
         </div>
         <div>
           <img src="https://themewagon.github.io/MiniStore/images/product-item4.jpg" alt="">
+          <div class="add_to_cart">
+            <a href="">add to cart</a>
+          </div>
           <div class="i_phone">
             <a href="">Iphone 10</a>
           <span>$980</span>
@@ -197,5 +219,6 @@
       </div>
     </div>
     </section>
+    
   </body>
 </html>
