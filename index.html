@@ -9,7 +9,6 @@
         border: 1px solid white;
         background-color: white;
         display: grid;
-        width: 100vw;
         height: 50px;
         align-content: center;
         padding: 10px;
@@ -31,19 +30,17 @@
       }
       .billboard {
         background-color: rgba(128, 128, 128, 0.185);
-        width: 100vw;
         display: flex;
-       
         justify-content: center;
       }
       .contant {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         width: 100px;
         height: 250px;
         align-content: center;
-        margin-right: 500px;
-
+        justify-content: center;
       }
       .shop_product {
         background-color: black;
@@ -77,6 +74,21 @@
       .daily_offers{
         width: 90%;
       }
+      .heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+      }
+     .mp_image_holder{
+      display: flex;
+      justify-content: space-around;
+     }
+     .i_phone{
+      display: flex;
+      justify-content: space-between;
+     }
+
     </style>
   </head>
   <body>
@@ -141,6 +153,49 @@
                 <p>Rem Lopsum dolor sit amet, consectetur adipi elit.</p>
             </div>
         </div>
+    </section>
+    <section class="mobile_products">
+      <div class="mp_container">
+        <div class="heading">
+        <div class="mobile_products">
+          <h1>Mobile Products</h1>
+        </div>
+        <div class="go_to_shop">
+           <a href=""><h2>GO TO SHOP</h2></a>
+        </div>
+    </div>
+        <div class="mp_image_holder">
+          <div>
+          <img src="https://themewagon.github.io/MiniStore/images/product-item1.jpg" alt="">
+          <div class="i_phone">
+            <a href="">Iphone 10</a>
+          <span>$980</span>
+          </div>
+        </div>
+       
+        <div>
+          <img src="https://themewagon.github.io/MiniStore/images/product-item2.jpg" alt="">
+          <div class="i_phone">
+            <a href="">Iphone 10</a>
+          <span>$980</span>
+          </div>
+        </div>
+        <div>
+          <img src="https://themewagon.github.io/MiniStore/images/product-item3.jpg" alt="">
+          <div class="i_phone">
+            <a href="">Iphone 10</a>
+          <span>$980</span>
+          </div>
+        </div>
+        <div>
+          <img src="https://themewagon.github.io/MiniStore/images/product-item4.jpg" alt="">
+          <div class="i_phone">
+            <a href="">Iphone 10</a>
+          <span>$980</span>
+          </div>
+        </div>
+      </div>
+    </div>
     </section>
   </body>
 </html>
