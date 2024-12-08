@@ -50,6 +50,7 @@
        padding: 12px 16px;
        text-align: left;
        color: black;
+       margin: a;
       }
       .header .navbar  li a:hover{
      
@@ -172,10 +173,35 @@
         .heading{
           justify-content: center;
         }
+        #company_services{
+          flex-direction: column;
+        }
       }
-    
-
-    </style>
+      #sale{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        background-color: white;
+      }
+      .yearly_sale{
+        display: flex;
+        flex-direction: column;
+        background-color:black;
+        height: 400px;
+        align-items: center;
+        color: aliceblue;
+        border: 1px solid whitesmoke;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-image: url(https://thumbs.dreamstime.com/b/apple-iphone-pro-max-box-new-york-usa-january-apple-iphone-pro-max-box-stay-black-background-304722029.jpg);
+      }
+      .yearly_sale .shop_sale{
+        width: 10%;
+        background-color: gray;
+        color: azure;
+      }
+      </style>
   </head>
   <body>
     <header class="header">
@@ -191,7 +217,7 @@
               <li class="services"><a href="./#company_services">SERVICES</a></li>
               <li class="products"><a href="./#mobile_products">PRODUCTS</a></li>
               <li class="watches"><a href="">WATCHES</a></li>
-              <li class="sale"><a href="./#mobile_products">SALE</a></li>
+              <li class="sale"><a href="./#sale">SALE</a></li>
               <li class="blog"><a href="./#mobile_products">BLOG</a></li>
               <li class="pages">
                <div class="dropdown">
@@ -367,6 +393,19 @@
           </div>
        </div>
       </section>
+      <section id="sale">
+      <div class="yearly_sale">
+        <h4>10%off</h4>
+        <h2>NEW YEAR SALE</h2>
+        <button class="shop_sale"><a href="">shop sale</a></button>
+      </div>
+    </section>
+    <section id="latest_posts">
+      <div class="latest_posts">
+        <h2>Latest Posts</h2>
+        <a href="">read a blog</a>
+      </div>
+    </section>
     
   </body>
 </html>
