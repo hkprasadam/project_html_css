@@ -201,7 +201,26 @@
         background-color: gray;
         color: azure;
       }
-      </style>
+      .latest_posts{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        margin: auto;
+      }
+      .img_posts img{
+        height: 250px;
+      }
+      .img_posts{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 10px;
+      }
+      a:hover{
+        color: rgb(63, 63, 233);
+      }
+    </style>
   </head>
   <body>
     <header class="header">
@@ -403,7 +422,24 @@
     <section id="latest_posts">
       <div class="latest_posts">
         <h2>Latest Posts</h2>
-        <a href="">read a blog</a>
+       <h3><a href="">read a blog</a></h3> 
+      </div>
+      <div class="img_posts">
+        <div>
+          <img src="https://themewagon.github.io/MiniStore/images/post-item1.jpg" alt="">
+          <p>feb 22, 2023 - Gadgets</p>
+          <h2><a href="">Get some cool gadgets in 2023</a></h2>
+        </div>
+        <div>
+          <img src="https://themewagon.github.io/MiniStore/images/post-item2.jpg" alt="">
+          <p>feb 25, 2023 - Technology</p>
+          <h2><a href="">Technology Hack You Won't Get</a></h2>
+        </div>
+        <div>
+          <img src="https://themewagon.github.io/MiniStore/images/post-item3.jpg" alt="">
+          <p>feb 22, 2023 - Camera</p>
+          <h2><a href="">Top 10 Small Camera In The World</a></h2>
+        </div>
       </div>
     </section>
     
