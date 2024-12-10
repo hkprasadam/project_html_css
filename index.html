@@ -192,9 +192,10 @@
         align-items: center;
         color: aliceblue;
         border: 1px solid whitesmoke;
-        background-position: right;
+        background-position:right;
         background-repeat: no-repeat;
         background-image: url(https://thumbs.dreamstime.com/b/apple-iphone-pro-max-box-new-york-usa-january-apple-iphone-pro-max-box-stay-black-background-304722029.jpg);
+        background-size: 100% 100%;
       }
       .yearly_sale .shop_sale{
         width: 10%;
@@ -219,6 +220,17 @@
       }
       a:hover{
         color: rgb(63, 63, 233);
+      }
+      .testimonials svg{
+       height: 30vh;
+       width: 100%;
+      }
+      .testimonials_container{
+        display: flex;
+        flex-direction: column;
+        opacity: 0.7;
+        font-size: small;
+        font-family: 'Times New Roman', Times, serif;
       }
     </style>
   </head>
@@ -442,6 +454,15 @@
         </div>
       </div>
     </section>
-    
-  </body>
+    <section class="testimonials">
+      <div class="testimonials_container">
+        <div>
+          <svg viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M2.5 12.5C2.5 8.20002 6.01001 4.70001 10.34 4.70001" stroke="#a19b9b" stroke-miterlimit="10" stroke-linecap="round"></path> <path d="M2.5 12.5V19.8C2.5 20.08 2.72 20.3 3 20.3H9.84001C10.12 20.3 10.34 20.08 10.34 19.8V13C10.34 12.72 10.12 12.5 9.84001 12.5H4.5" stroke="#a19b9b" stroke-miterlimit="10" stroke-linecap="round"></path> <path d="M13.66 12.5C13.66 8.20002 17.17 4.70001 21.5 4.70001" stroke="#a19b9b" stroke-miterlimit="10" stroke-linecap="round"></path> <path d="M13.66 12.5V19.8C13.66 20.08 13.88 20.3 14.16 20.3H21C21.28 20.3 21.5 20.08 21.5 19.8V13C21.5 12.72 21.28 12.5 21 12.5H15.66" stroke="#a19b9b" stroke-miterlimit="10" stroke-linecap="round"></path> </g>
+          </svg>
+        </div>
+      <h1>
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat modi molestiae eligendi quos harum quidem reprehenderit dignissimos omnis eaque deserunt, autem ipsam iste quasi libero soluta magni, laudantium expedita maiores! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem molestiae dolor aliquid consequuntur enim, eius, asperiores quos repellat vel aliquam neque recusandae nemo deleniti quae excepturi. Mollitia qui beatae sunt."</h1>
+      </div>
+  </section>
+</body>
 </html>
