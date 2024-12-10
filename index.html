@@ -200,8 +200,8 @@
         border: 1px solid whitesmoke;
         background-position:right;
         background-repeat: no-repeat;
-        background-image: url(https://thumbs.dreamstime.com/b/apple-iphone-pro-max-box-new-york-usa-january-apple-iphone-pro-max-box-stay-black-background-304722029.jpg);
-        background-size: 100% 100%;
+        background-image: url(https://themewagon.github.io/MiniStore/images/banner-image.png);
+        background-size: 50% 100%;
       }
       .yearly_sale .shop_sale{
         width: 10%;
@@ -210,6 +210,7 @@
       }
       .latest_posts{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         padding: 10px;
         margin: auto;
@@ -231,12 +232,57 @@
        height: 30vh;
        width: 100%;
       }
+      .testimonials{
+        display: flex;
+        justify-content: center;
+      }
       .testimonials_container{
         display: flex;
         flex-direction: column;
+        width: 80%;
         opacity: 0.7;
         font-size: small;
         font-family: 'Times New Roman', Times, serif;
+      }
+      .login{
+        display: flex;
+        justify-content: center;
+        height: 200px;
+       }
+      .login_container{
+        border: 1px solid;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+      }
+      .login_container form{
+        padding: 30px;
+      }
+      .submit:hover{
+        background-color: aquamarine;
+        color: blue;
+      }
+      .login_container p:hover{
+        color: blue;
+      }
+      .insta_images img{
+        height: 150px;
+        width: 150px;
+        
+      }
+      .insta{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px;
+        margin-top: 30px;
+      }
+      .insta_heading{
+        text-align: center;
       }
     </style>
   </head>
@@ -470,5 +516,40 @@
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat modi molestiae eligendi quos harum quidem reprehenderit dignissimos omnis eaque deserunt, autem ipsam iste quasi libero soluta magni, laudantium expedita maiores! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem molestiae dolor aliquid consequuntur enim, eius, asperiores quos repellat vel aliquam neque recusandae nemo deleniti quae excepturi. Mollitia qui beatae sunt."</h1>
       </div>
   </section>
+  <section class="login">
+     <div class="login_container">
+      <p>SUBSCRIBE US NOW <br><br> Get latest news, updates and deals directly mailed to your inbox.</p>
+      <form>
+        <input type="email" name="user_email" placeholder="Your Email adress here" re><input class="submit" type="submit" value="SUBSCRIBE">
+      </form>
+    </div>
+  </section>
+  <section class="insta">
+    <div>
+      <div class="insta_heading">
+        <h1>SHOP OUR INSTA</h1>
+      </div>
+      <div class="insta_images">
+        <img src="https://themewagon.github.io/MiniStore/images/insta-item1.jpg" alt="">
+        <img src="https://themewagon.github.io/MiniStore/images/insta-item2.jpg" alt="">
+        <img src="https://themewagon.github.io/MiniStore/images/insta-item3.jpg" alt="">
+        <img src="https://themewagon.github.io/MiniStore/images/insta-item4.jpg" alt="">
+        <img src="https://themewagon.github.io/MiniStore/images/insta-item5.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="column">
+      <h1>MiniStore</h1>
+      <p>Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit. Gravida massa volutpat aenean odio erat nullam fringilla.</p>
+    </div>
+    <div class="column">
+      <h1>Quick Links</h1>
+    </div>
+    <div class="column">
+
+    </div>
+    <div class="column"></div>
+  </footer>
 </body>
 </html>
