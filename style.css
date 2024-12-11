@@ -3,8 +3,10 @@
     margin: 0;
     padding: 0;
 }
-
-svg{
+html{
+  overflow-x: hidden;
+}
+  svg{
     width: 2vw;
     height: 2vh;
   }
@@ -94,6 +96,7 @@ svg{
   }
   #company_services {
     display: flex;
+    flex-wrap: wrap;
     background-color: white;
     justify-content: center;
     justify-items: space-around;
@@ -169,6 +172,9 @@ svg{
  @media screen and (min-width:0px) and (max-width:768px) {
     .contant~.image_holder img{
       display: none;
+    }
+     body{
+      overflow-x: hidden;
     }
     .navbar_container ul{
       display: none;
