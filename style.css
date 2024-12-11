@@ -1,0 +1,395 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+svg{
+    width: 2vw;
+    height: 2vh;
+  }
+  .header {
+    border: 1px solid white;
+    background-color: white;
+    display: grid;
+    height: 50px;
+    align-content: center;
+    padding: 10px;
+    width: 100vw;
+  }
+  .navbar_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .navbar_container ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .dropdown .dropbtn{
+    border: none;
+    background-color: white;
+    font-size: 14px;
+  }
+  .dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown_content a {
+   display: block;
+   padding: 12px 16px;
+   text-align: left;
+   color: black;
+   margin: a;
+  }
+  .header .navbar  li a:hover{
+ 
+ color:blue;
+}
+.dropdown:hover .dropdown_content{
+ display: block;
+}
+  .billboard {
+    background-color: rgba(128, 128, 128, 0.185);
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contant{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20px;
+    height: 250px;
+    align-content: center;
+    justify-content: center;
+  }
+  .shop_product {
+    background-color: black;
+  }
+  .shop_product a{
+    color: white;
+  }
+  .image_holder{
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  .image_holder img{
+    display: flex;
+    width: 300px;
+    margin-top: -300px;
+    margin-left: 200px;
+  }
+  #company_services {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    justify-items: space-around;
+    gap: 10px;
+    margin-top: 70px;
+    width: 100vw;
+  }
+  .free_delivery{
+    width: 90%;
+  }
+  .quality_guarantee{
+    width: 90%;
+  }
+  .daily_offers{
+    width: 90%;
+  }
+  #mobile_products{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    width: 100vw;
+    
+  }
+  #mobile_products_2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    width: 100vw;
+  }
+  .heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+   
+  }
+ .mp_image_holder{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 95vw;
+  /* gap: 5vw; */
+  /* justify-content: space-around; */
+ }
+ .i_phone{
+  font-size:x-large;
+  justify-content: space-between;
+  display: flex;
+
+  
+ }
+ .add_to_cart{
+  font-size: larger;
+  z-index: 5;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: -100px;
+  background-color: rgb(77, 75, 75);
+  padding: 1vw;
+  border-radius: 5vw;
+  display: none;
+ 
+ }
+ .img11{
+  
+  margin: auto;
+
+ }
+ .img11:hover> .add_to_cart{
+  display: block;
+  background-color: aqua;
+ }
+ @media screen and (min-width:0px) and (max-width:768px) {
+    .contant~.image_holder img{
+      display: none;
+    }
+    .navbar_container ul{
+      display: none;
+    }
+    .navbar_container{
+      justify-content: center;
+    }
+    .billboard{
+      display: none;
+    }
+    .go_to_shop{
+      display:none;
+    }
+    .header{
+      justify-content: center;
+    
+    }
+    .heading{
+      justify-content: center;
+    }
+    #company_services{
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  #sale{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+    margin-top: 70px;
+    width: 100vw;
+  }
+  .yearly_sale{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    height: 400px;
+    align-items: center;
+    color: aliceblue;
+    border: 1px solid whitesmoke;
+    background-position:right;
+    background-repeat: no-repeat;
+    background-image: url(https://themewagon.github.io/MiniStore/images/banner-image.png);
+    background-size: 50% 100%;
+  }
+  .yearly_sale .shop_sale{
+    width: 10%;
+    background-color: gray;
+    color: azure;
+  }
+  #latest_posts{
+    margin-top: 50px;
+    width: 100vw;
+  }
+  .latest_posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+  }
+  .img_posts img{
+    height: 250px;
+  }
+  .img_posts{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  a:hover{
+    color: rgb(63, 63, 233);
+  }
+  .testimonials svg{
+   height: 30vh;
+   width: 100%;
+  }
+  .testimonials{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    width: 100vw;
+  }
+  .testimonials_container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    opacity: 0.7;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .login{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: 70px;
+    width: 100vw;
+   }
+  .login_container{
+    border: 1px solid;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .login_container form{
+    padding: 30px;
+  }
+  .submit:hover{
+    background-color: aquamarine;
+    color: blue;
+  }
+  .login_container p:hover{
+    color: blue;
+  }
+  .instagram{
+    width: 100vw;
+  }
+  .insta_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  .instaimage_holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+   
+
+  }
+  .instaimage_holder img{
+    width: 200px;
+    height: 200px;
+  }
+  .insta_svg_1{
+    position: absolute;
+    top: 100px;
+    left: 125px;
+    display: none;
+  
+  }
+  .insta_svg_1 svg{
+    height: 50px;
+    width: 50px;
+  }
+  .insta_svg_2{
+    position: absolute;
+    top: 100px;
+    left: 425px;
+    display: none;
+  
+  }
+  .insta_svg_2 svg{
+    height: 50px;
+    width: 50px;
+  }
+  .insta_svg_3{
+    position: absolute;
+    top: 100px;
+    left: 725px;
+    display: none;
+   
+  
+  }
+  .insta_svg_3 svg{
+    height: 50px;
+    width: 50px;
+  }
+  .insta_svg_4{
+    position: absolute;
+    top: 100px;
+    left: 1025px;
+    display: none;
+    
+  
+  }
+  .insta_svg_4 svg{
+    height: 50px;
+    width: 50px;
+  }
+  .insta_svg_5{
+    position: absolute;
+    top: 100px;
+    left: 1325px;
+    display: none;
+  }
+  .insta_svg_5 svg{
+    height: 50px;
+    width: 50px;
+  }
+  .instaimage_holder img:hover+.insta_svg_1{
+    display: block;
+    background-color: rgb(240, 87, 87);
+    border-radius: 10px;
+  }
+  .instaimage_holder img:hover+.insta_svg_2{
+    display: block;
+    background-color: rgb(240, 87, 87);
+    border-radius: 10px;
+  }
+  .instaimage_holder img:hover+.insta_svg_3{
+    display: block;
+    background-color: rgb(240, 87, 87);
+    border-radius: 10px;
+  }
+  .instaimage_holder img:hover+.insta_svg_4{
+    display: block;
+    background-color: rgb(240, 87, 87);
+    border-radius: 10px;
+  }
+  .instaimage_holder img:hover+.insta_svg_5{
+   display: block;
+    background-color: rgb(240, 87, 87);
+    border-radius: 10px;
+  }
+ 
