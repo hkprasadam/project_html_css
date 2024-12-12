@@ -115,16 +115,23 @@ html{
   }
   #mobile_products{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-top: 70px;
     width: 100vw;
+    align-items: center;
     
   }
   #mobile_products_2{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-top: 70px;
     width: 100vw;
+    align-items: center;
+  }
+  .mp_container{
+    width: 90%;
   }
   .heading{
     display: flex;
@@ -173,7 +180,8 @@ html{
     .contant~.image_holder img{
       display: none;
     }
-     body{
+    
+    body{
       overflow-x: hidden;
     }
     .navbar_container ul{
@@ -214,6 +222,8 @@ html{
     flex-direction: column;
     background-color:black;
     height: 400px;
+    gap: 50px;
+    justify-content: center;
     align-items: center;
     color: aliceblue;
     border: 1px solid whitesmoke;
@@ -235,6 +245,7 @@ html{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 90%;
     padding: 10px;
     margin: auto;
   }
@@ -298,6 +309,7 @@ html{
   }
   .instagram{
     width: 100vw;
+    margin-top:70px;
   }
   .insta_container{
     display: flex;
@@ -310,6 +322,7 @@ html{
     flex-wrap: wrap;
     justify-content: space-around;
     position: relative;
+    margin-top: 50px;
    
 
   }
@@ -331,9 +344,8 @@ html{
   .insta_svg_2{
     position: absolute;
     top: 100px;
-    left: 425px;
+    left: 440px;
     display: none;
-  
   }
   .insta_svg_2 svg{
     height: 50px;
@@ -342,10 +354,8 @@ html{
   .insta_svg_3{
     position: absolute;
     top: 100px;
-    left: 725px;
+    left: 740px;
     display: none;
-   
-  
   }
   .insta_svg_3 svg{
     height: 50px;
@@ -354,10 +364,8 @@ html{
   .insta_svg_4{
     position: absolute;
     top: 100px;
-    left: 1025px;
+    left: 1045px;
     display: none;
-    
-  
   }
   .insta_svg_4 svg{
     height: 50px;
@@ -366,7 +374,7 @@ html{
   .insta_svg_5{
     position: absolute;
     top: 100px;
-    left: 1325px;
+    left: 1360px;
     display: none;
   }
   .insta_svg_5 svg{
