@@ -407,12 +407,12 @@ html{
     border-radius: 10px;
   }
   .footer{
+    background-color: rgb(213, 205, 205);
     margin-top: 50px;
     overflow-x: hidden;
     text-align: justify;
   }
   .footer_container{
-    border: 1px solid;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
