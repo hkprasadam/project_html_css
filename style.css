@@ -410,7 +410,6 @@ html{
     background-color: rgb(213, 205, 205);
     margin-top: 50px;
     overflow-x: hidden;
-    text-align: justify;
   }
   .footer_container{
     display: flex;
@@ -436,7 +435,6 @@ html{
   .menu_list{
     list-style: none;
     margin-top: 10px;
-    gap: 5px;
   }
   .footer_menu h4{
     margin-top: 10px;
@@ -444,4 +442,3 @@ html{
   .footer_menu p{
     margin-top: 10px;
   }
- 
