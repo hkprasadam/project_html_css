@@ -22,14 +22,26 @@ html{
   .navbar_container {
     display: flex;
     justify-content: space-between;
+    padding-right: 20px;
     flex-wrap: wrap;
   }
   .navbar_container ul {
     display: flex;
     list-style: none;
+    align-items: center;
     gap: 20px;
     flex-wrap: wrap;
+    margin-top: 10px;
   }
+.svg1:hover{
+  background-color: blue;
+}
+.svg2:hover{
+  background-color: brown;
+}
+.svg3:hover{
+  background-color: aquamarine;
+}
   a {
     text-decoration: none;
     color: black;
